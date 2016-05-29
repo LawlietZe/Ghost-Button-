@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buttons</title>
+<meta charset="utf-8">
+<style type="text/css">
+	input{
+		width: 100px;
+		height: 40px;
+		border: none;
+		background: url(images/btn.png);
+	}
+	a{
+		display: inline-block;
+		height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+		background: url(images/btn_bg.png);
+		padding-left: 15px;
+		color: #000;
+	}
+	a span{
+		display: inline-block;
+		height: 40px;
+		background: url(images/btn_bg.png) right -40px;
+		padding-right: 15px;
+	}
+	a:hover{
+		background: url(images/btn_bg.png) 0px -80px;
+		color: #fff;
+	}
+
+	a:hover span{
+		background: url(images/btn_bg.png) right -120px;
+	}
+</style>	
+</head>
+<body>
+<input type="button" value="按钮"></input>
+<input type="submit" value="提交"></input>
+<input type="reset" value="重置"></input>
+
+
+<br>
+<br>
+<br>
+
+<a href="javascript:;"><span>按钮</span></a>
+</body>
+</html>
