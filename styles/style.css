@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: grey;
+
+}
+
+.box{
+	   width: 800px;
+	   height: 280px;
+	   margin: 50px auto;
+     position: relative;
+}
+.box .link{
+   width: 205px;
+   height: 280px;
+   float: left;
+   margin: 0 20px;
+}
+.link .icon{
+    display: inline-block;
+    width: 100%;
+    height: 190px;
+    transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    -webkit-transition: 1s ease-out;
+}
+
+.mission-link .icon{
+	background: url(../images/mission.png) no-repeat center center;
+}
+
+.play-link .icon{
+	background: url(../images/play.png) no-repeat center center;
+}
+
+.touch-link .icon{
+	background: url(../images/touch.png) no-repeat center center;
+}
+
+.link .icon:hover{
+    transform: rotate(360deg) scale(1.2);
+    -ms-transform: rotate(360deg) scale(1.2);
+    -moz-transform: rotate(360deg) scale(1.2);
+    -webkit-transform: rotate(360deg) scale(1.2);
+    -o-transform: rotate(360deg) scale(1.2);
+ }
+
+ .button{
+ 	   display: inline-block;
+ 	   width: 180px;
+ 	   height: 50px;
+ 	   line-height: 50px;
+ 	   text-decoration: none;
+ 	   color: #2DCB70;
+ 	   font-family: Arial;
+ 	   font-weight: bolder;
+ 	   border:2px solid rgba(255,255,255,0.6);
+ 	   padding-left: 20px;
+ 	   margin: 0 auto;
+ 	   position: relative;
+ 	   box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+  	 -o-box-sizing: border-box;
+  	 background: url(../images/allow.png) no-repeat 130px center;
+  	transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+ }
+ .button:hover{
+ 	   border:2px solid rgba(255,255,255,1);
+     background-position: 140px center;
+
+ }
+
+ .button .line {
+ 	   display: block;
+ 	   position: absolute;
+ 	   background: none;
+ }
+
+ .button:hover .line{
+ 	  background: #f00;
+
+ }
+
+ .button .line-top{
+ 	  height: 2px;
+ 	  width: 0;
+    left: -110%;
+    top: -2px;
+ }
+
+ .box .tip{
+position:absolute;
+           padding:0px 14px;
+           height:35px;
+           line-height:35px;
+           background:#2DCB70;
+           color:#fff;
+           top:160px;
+           font-size:16px;
+           font-weight:normal;
+           text-transform:none;
+           margin:0 auto;
+           opacity:0;
+           border-radius:3px
+ }
+
+ .tip em{
+  font-style: normal;
+ }
+ .tip span{
+            display: block;
+            width: 0px;
+            height: 0px;
+            overflow: hidden;
+            border:7px solid transparent;
+            border-top-color: #2DCB70;
+            position: absolute;
+            top: 35px;
+            left: 50%;
+            margin-left: -3px;
+  }
+
+
+
+
+
+
